@@ -11,6 +11,16 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_4gi32")
 
+[node name="Gear" type="Label" parent="."]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 14.0
+offset_right = 63.0
+offset_bottom = 91.0
+theme_override_colors/font_color = Color(0, 0.494118, 0.00392157, 1)
+theme_override_font_sizes/font_size = 50
+text = "1"
+
 [node name="Speed" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 8
